@@ -11,3 +11,7 @@ Select the scene **Scene_Modulo_03** and click in **Player** object, see in the 
 ### Module 04:
 
 Press W, A, s or D to select an animal and see it on console.
+
+### Module 05:
+
+Press Space to see the movement speed of enemies.
