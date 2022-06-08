@@ -20,11 +20,17 @@ public class AKey : MonoBehaviour
         {
             _sPressed = "Pressed";
             _fPressed = Time.time;
+
+            Debug.Log(_sPressed);
+            Debug.Log(_fPressed);
         }
         else if (Input.GetKeyUp(KeyCode.A))
         {
             _sPressed = "Not Pressed";
             _iPressed++;
+
+            Debug.Log(_sPressed);
+            Debug.Log(_iPressed);
         }
     }
 }
