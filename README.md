@@ -15,3 +15,7 @@ Press W, A, s or D to select an animal and see it on console.
 ### Module 05:
 
 Press Space to see the movement speed of enemies.
+
+### Module 06:
+
+Just press the mouse's left button and see the bouncy balls.
