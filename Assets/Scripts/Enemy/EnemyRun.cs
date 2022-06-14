@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class EnemyRun : EnemyBase
 {
+    #region Protected Methods
     protected override float CalculateSpeed()
     {
-        return speed * 5;
+        return Speed * 5;
     }
+    #endregion
 }

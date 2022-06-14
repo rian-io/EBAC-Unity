@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AKey : MonoBehaviour
 {
+    #region Serializable Fields
     [Header("String")]
     [SerializeField] private string _sPressed = "";
 
@@ -12,7 +13,9 @@ public class AKey : MonoBehaviour
 
     [Header("Integer")]
     [SerializeField] private int _iPressed = 0;
+    #endregion
 
+    #region Unity Methods
     // Update is called once per frame
     private void Update()
     {
@@ -33,4 +36,5 @@ public class AKey : MonoBehaviour
             Debug.Log(_iPressed);
         }
     }
+    #endregion
 }

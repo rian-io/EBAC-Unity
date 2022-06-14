@@ -5,8 +5,11 @@ using UnityEngine;
 [CreateAssetMenu]
 public class EnemyData : ScriptableObject
 {
-    [SerializeField] private int life = 0;
+    #region Serializable Fields
+    [SerializeField] private int _life = 0;
+    #endregion
 
+    #region Public Methods
     public void Move(float speed)
     {
         Debug.Log("Moving at " + speed);
@@ -14,6 +17,7 @@ public class EnemyData : ScriptableObject
 
     public void SetLife()
     {
-        Debug.Log("Life is " + life);
+        Debug.Log("Life is " + _life);
     }
+    #endregion
 }

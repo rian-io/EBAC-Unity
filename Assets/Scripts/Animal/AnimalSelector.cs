@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#region Public Enums
 public enum Animal
 {
     Dog,
@@ -9,9 +10,11 @@ public enum Animal
     Fish,
     Parrot
 }
+#endregion
 
 public class AnimalSelector : MonoBehaviour
 {
+    #region Unity Methods
     // Update is called once per frame
     private void Update()
     {
@@ -32,7 +35,9 @@ public class AnimalSelector : MonoBehaviour
             CheckSwitchCase(Animal.Parrot);
         }
     }
+    #endregion
 
+    #region Private Methods
     private void CheckSwitchCase(Animal animal)
     {
         switch (animal)
@@ -74,4 +79,5 @@ public class AnimalSelector : MonoBehaviour
     {
         Debug.Log("Parrot Selected");
     }
+    #endregion
 }

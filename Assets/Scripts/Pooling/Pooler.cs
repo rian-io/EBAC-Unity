@@ -12,13 +12,13 @@ public class Pooler : MonoBehaviour
     #region Private Fields
     private List<GameObject> _pooledObjects;
 
-    public static Pooler SharedInstance;
+    public static Pooler s_sharedInstance;
     #endregion
     
     #region Unity Methods
     private void Awake()
     {
-        SharedInstance = this;
+        s_sharedInstance = this;
     }
 
     // Start is called before the first frame update
