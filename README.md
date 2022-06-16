@@ -19,3 +19,7 @@ Press Space to see the movement speed of enemies.
 ### Module 06:
 
 Just press the mouse's left button and see the bouncy balls.
+
+### Module 07:
+
+Interact with on-screen buttons using mouse click.
